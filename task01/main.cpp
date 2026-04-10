@@ -21,5 +21,9 @@ int main() {
 	print("\nMax value is " + to_string(max) + ".");
 	print("\nMin value is " + to_string(min) + ".");
 	print("\narith mean is " + to_string(arit) + ".");
+
+	swap_extrem_elements(array, size);
+
+	print("\nAfter array: ");
 	return 0;
 }
